@@ -44,10 +44,6 @@ export default {
           src: 'https://widget.bandsintown.com/main.min.js',
           body: true,
           async: true,
-
-          //   callback: () => {
-          //     this.scriptLoaded = true
-          //   },
         },
       ],
     }
