@@ -15,7 +15,7 @@ export default {
     ],
     script: [
       {
-        src: 'https://widget.bandsintown.com/main.min.js',
+        // src: 'https://widget.bandsintown.com/main.min.js',
       },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
