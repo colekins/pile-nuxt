@@ -39,7 +39,3 @@
     </b-row>
   </b-container>
 </template>
-
-<script></script>
-
-<style></style>
