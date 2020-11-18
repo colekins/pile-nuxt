@@ -31,6 +31,11 @@ export default {
   components: {
     // AlbumCover,
   },
+  data() {
+    return {
+      scriptLoaded: false,
+    }
+  },
   head() {
     return {
       title: 'Pile',
@@ -44,11 +49,6 @@ export default {
         //   },
         // },
       ],
-    }
-  },
-  data() {
-    return {
-      scriptLoaded: false,
     }
   },
 }

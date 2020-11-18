@@ -14,8 +14,6 @@ export default {
   components: {
     // AlbumCover,
   },
-
-  data() {},
 }
 </script>
 

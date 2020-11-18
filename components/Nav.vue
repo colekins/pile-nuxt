@@ -3,19 +3,19 @@
     <!-- Right aligned nav items -->
     <b-navbar-nav class="ml-auto">
       <b-nav-item>
-        <n-link class="nav-link" to="/">News</n-link>
+        <NuxtLink class="nav-link" to="/">News</NuxtLink>
       </b-nav-item>
       <b-nav-item>
-        <n-link class="nav-link" to="/music">Music</n-link>
+        <NuxtLink class="nav-link" to="/music">Music</NuxtLink>
       </b-nav-item>
       <b-nav-item>
-        <n-link class="nav-link" to="/videos">Videos</n-link>
+        <NuxtLink class="nav-link" to="/videos">Videos</NuxtLink>
       </b-nav-item>
       <b-nav-item>
-        <n-link class="nav-link" to="/tour">Tour</n-link>
+        <NuxtLink class="nav-link" to="/tour">Tour</NuxtLink>
       </b-nav-item>
       <b-nav-item>
-        <n-link class="nav-link" to="/contact">Contact</n-link>
+        <NuxtLink class="nav-link" to="/contact">Contact</NuxtLink>
       </b-nav-item>
     </b-navbar-nav>
   </b-navbar>
