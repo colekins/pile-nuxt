@@ -1,8 +1,10 @@
 <template>
   <b-row>
     <b-col>
-      <h4 v-if="!isLink">{{ post.date.slice(0, -8) }}</h4>
-      <h5 v-if="title">{{ title }}</h5>
+      <h4 v-if="!isLink" class="date">
+        {{ post.date.slice(0, -8) }}
+        <span v-if="title">- {{ title }}</span>
+      </h4>
       <Regular v-if="isRegular" :post="post"></Regular>
       <Photo v-if="isPhoto" :post="post"></Photo>
       <Video v-if="isVideo" :post="post">video</Video>
@@ -38,4 +40,8 @@ export default {
 }
 </script>
 
-<style></style>
+<style>
+.date {
+  margin-bottom: 1em;
+}
+</style>

@@ -15,7 +15,7 @@
         <NuxtLink class="nav-link" to="/tour">Tour</NuxtLink>
       </b-nav-item>
       <b-nav-item>
-        <NuxtLink class="nav-link" to="/new">Contact</NuxtLink>
+        <NuxtLink class="nav-link" to="/contact">Contact</NuxtLink>
       </b-nav-item>
     </b-navbar-nav>
   </b-navbar>

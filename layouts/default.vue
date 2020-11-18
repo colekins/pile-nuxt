@@ -5,19 +5,20 @@
     <transition name="fade">
       <Nuxt />
     </transition>
+    <Footer />
   </div>
 </template>
 
 <script>
 import Nav from '~/components/Nav.vue'
 import Header from '~/components/Header.vue'
-// import Footer from '~/components/Footer'
+import Footer from '~/components/Footer'
 
 export default {
   components: {
     Nav,
     Header,
-    // Footer,
+    Footer,
   },
 }
 </script>
@@ -68,6 +69,10 @@ body {
 
 .content-container {
   padding-top: 2em;
+}
+
+body a {
+  color: #f76e56;
 }
 
 body * {
