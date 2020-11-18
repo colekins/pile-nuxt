@@ -6,6 +6,7 @@
       <Regular v-if="isRegular" :post="post"></Regular>
       <Photo v-if="isPhoto" :post="post"></Photo>
       <Video v-if="isVideo" :post="post">video</Video>
+      <hr />
     </b-col>
   </b-row>
 </template>

@@ -1,5 +1,5 @@
 <template>
-  <b-container class="container-fluid">
+  <b-container class="container content-container news">
     <div class="page-title">News</div>
     <br />
     <br />

@@ -1,15 +1,15 @@
 <template>
   <div>
-    <b-row>
-      <b-col class="header">
-        <a href="index.html">
-          <img
-            class="band-name"
-            alt="Pile"
-            src="https://i.imgur.com/448IIH6.png"
-          />
-        </a>
-      </b-col>
+    <b-row class="header">
+      <!-- <b-col > -->
+      <a href="index.html">
+        <img
+          class="band-name"
+          alt="Pile"
+          src="https://i.imgur.com/448IIH6.png"
+        />
+      </a>
+      <!-- </b-col> -->
     </b-row>
   </div>
 </template>
@@ -27,5 +27,7 @@
   padding: 0.7em 9em;
   display: flex;
   justify-content: flex-end;
+  width: 100%;
+  margin: 0;
 }
 </style>

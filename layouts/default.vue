@@ -2,7 +2,9 @@
   <div>
     <Header />
     <Nav />
-    <Nuxt />
+    <transition name="fade">
+      <Nuxt />
+    </transition>
   </div>
 </template>
 
@@ -41,6 +43,18 @@ html {
   text-decoration-style: dotted;
 }
 
+.fade-enter-active,
+.fade-leave-active {
+  transition-duration: 0.3s;
+  transition-property: opacity;
+  transition-timing-function: ease;
+}
+
+.fade-enter,
+.fade-leave-active {
+  opacity: 0;
+}
+
 *,
 *::before,
 *::after {
@@ -50,6 +64,10 @@ html {
 
 body {
   background-color: rgb(8, 8, 8);
+}
+
+.content-container {
+  padding-top: 2em;
 }
 
 body * {
