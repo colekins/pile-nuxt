@@ -44,6 +44,7 @@ export default {
           src: 'https://widget.bandsintown.com/main.min.js',
           body: true,
           async: true,
+          defer: true,
         },
       ],
     }
