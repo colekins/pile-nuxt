@@ -1,5 +1,5 @@
 <template>
-  <b-container class="container content-container tour">
+  <b-container class="container content-container contact">
     <div class="page-title">Contact</div>
     <br />
     <br />
@@ -40,18 +40,6 @@
   </b-container>
 </template>
 
-<script>
-export default {
-  components: {
-    // AlbumCover,
-  },
-  head() {
-    return {
-      title: 'Pile',
-    }
-  },
-  data() {},
-}
-</script>
+<script></script>
 
 <style></style>
