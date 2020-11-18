@@ -41,8 +41,13 @@
 }
 
 .nav-link a {
-  color: #f36a52 !important;
+  color: #f76e56 !important;
   text-transform: uppercase;
   font-size: 1.1em;
+}
+
+.nav-link a:hover {
+  color: #ffb9ad !important;
+  text-decoration: underline;
 }
 </style>

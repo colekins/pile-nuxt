@@ -1,3 +1,5 @@
+import data from './data/albums.js'
+
 export default {
   // Disable server-side rendering (https://go.nuxtjs.dev/ssr-mode)
   ssr: false,
@@ -19,6 +21,17 @@ export default {
       },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+  },
+
+  generate: {
+    routes() {
+      const res = data.albums
+      return res.map((album) => {
+        return {
+          route: '/music/' + album.title.replace(/ /g, '').toLowerCase(),
+        }
+      })
+    },
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)

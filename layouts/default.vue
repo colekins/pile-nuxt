@@ -69,10 +69,15 @@ body {
 
 .content-container {
   padding-top: 2em;
+  padding-bottom: 5em;
 }
 
 body a {
   color: #f76e56;
+}
+
+body a:hover {
+  color: #ffb9ad;
 }
 
 body * {

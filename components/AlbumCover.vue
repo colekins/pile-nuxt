@@ -1,17 +1,17 @@
 <template>
   <b-col
-    :lg="onMusicPage ? 3 : 6"
+    :lg="onMusicPage ? 4 : 6"
     :md="onMusicPage ? 4 : 6"
     sm="6"
     class="album-cover"
   >
     <n-link :to="'/music/' + album.title.replace(/ /g, '').toLowerCase()">
-      <img :src="album.images.small" width="100%" :alt="album.title" />
+      <img :src="album.images.cover" width="100%" :alt="album.title" />
     </n-link>
     <div v-if="onMusicPage" class="item-title">
       <span class="album-title">{{ album.title }}</span
       ><br />
-      <span class="album-title">{{ year }}</span>
+      <span class="album-year">({{ year }})</span>
     </div>
   </b-col>
 </template>
@@ -38,10 +38,19 @@ export default {
   transition: transform 0.3s ease;
 }
 
+.album-year {
+  font-size: 0.9em;
+}
+
 .item-title {
+  margin-top: 0.5em;
   font-size: 16px;
   text-align: right;
   text-transform: capitalize;
+}
+
+.album-title {
+  font-weight: bold;
 }
 
 .italic {

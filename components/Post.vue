@@ -5,9 +5,11 @@
         {{ post.date.slice(0, -8) }}
         <span v-if="title">- {{ title }}</span>
       </h4>
-      <Regular v-if="isRegular" :post="post"></Regular>
-      <Photo v-if="isPhoto" :post="post"></Photo>
-      <Video v-if="isVideo" :post="post">video</Video>
+      <div class="post-container">
+        <Regular v-if="isRegular" :post="post"></Regular>
+        <Photo v-if="isPhoto" :post="post"></Photo>
+        <Video v-if="isVideo" :post="post">video</Video>
+      </div>
       <hr />
     </b-col>
   </b-row>
@@ -43,5 +45,9 @@ export default {
 <style>
 .date {
   margin-bottom: 1em;
+}
+
+.post-container {
+  margin-left: 1.5em;
 }
 </style>

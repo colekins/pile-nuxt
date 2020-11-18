@@ -42,6 +42,6 @@ export default {
 
 <style>
 .post-image {
-  margin: 0 1.1em 1.1em 0;
+  margin: 0 1.5em 1.5em 0;
 }
 </style>
