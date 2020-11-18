@@ -1,3 +1,7 @@
 <template>
-  <b-container class="content-container"> HI! </b-container>
+  <b-container class="content-container">
+    <div class="page-title">Contact</div>
+    <br />
+    <br
+  /></b-container>
 </template>
