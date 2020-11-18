@@ -4,7 +4,7 @@
     <br />
     <br />
     <b-row>
-      <b-col>
+      <!-- <b-col>
         <a href="mailto:pile.email@gmail.com">pile.email@gmail.com</a>
         <p>
           Please drop us a line if you know of any unconvetional and all-ages
@@ -35,7 +35,7 @@
           <b>Sync Licensing</b>: Terrorbird Media :
           <a href="mailto:syncteam@terrorbird.com">syncteam@terrorbird.com</a>
         </p>
-      </b-col>
+      </b-col> -->
     </b-row>
   </b-container>
 </template>
