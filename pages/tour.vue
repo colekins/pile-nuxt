@@ -4,7 +4,7 @@
     <br />
     <br />
     <b-row>
-      <b-col v-if="scriptLoaded">
+      <b-col>
         <a
           class="bit-widget-initializer"
           data-artist-name="pile"
@@ -40,14 +40,15 @@ export default {
     return {
       title: 'Pile',
       script: [
-        // {
-        //   vmid: 'extscript',
-        //   charset: 'utf-8',
-        //   src: 'https://widget.bandsintown.com/main.min.js',
-        //   callback: () => {
-        //     this.scriptLoaded = true
-        //   },
-        // },
+        {
+          src: 'https://widget.bandsintown.com/main.min.js',
+          body: true,
+          async: true,
+
+          //   callback: () => {
+          //     this.scriptLoaded = true
+          //   },
+        },
       ],
     }
   },
