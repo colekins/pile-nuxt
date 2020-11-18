@@ -35,14 +35,14 @@ export default {
     return {
       title: 'Pile',
       script: [
-        {
-          vmid: 'extscript',
-          charset: 'utf-8',
-          src: 'https://widget.bandsintown.com/main.min.js',
-          callback: () => {
-            this.scriptLoaded = true
-          },
-        },
+        // {
+        //   vmid: 'extscript',
+        //   charset: 'utf-8',
+        //   src: 'https://widget.bandsintown.com/main.min.js',
+        //   callback: () => {
+        //     this.scriptLoaded = true
+        //   },
+        // },
       ],
     }
   },
