@@ -28,15 +28,21 @@
 
 <script>
 export default {
-  head() {
-    return {
-      script: [
-        {
-          src: 'https://widget.bandsintown.com/main.min.js',
-          body: true,
-        },
-      ],
-    }
-  },
+  // mounted() {
+  //   const script = document.createElement('script')
+  //   script.type = 'text/javascript'
+  //   script.src = 'https://widget.bandsintown.com/main.min.js'
+  //   document.body.appendChild(script)
+  // },
+  // head() {
+  //   return {
+  //     script: [
+  //       {
+  //         src: 'https://widget.bandsintown.com/main.min.js',
+  //         body: true,
+  //       },
+  //     ],
+  //   }
+  // },
 }
 </script>

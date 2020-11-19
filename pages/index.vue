@@ -20,6 +20,12 @@ export default {
   components: {
     Post,
   },
+  async fetch() {
+    this.posts = await fetch(endpoint)
+      .then((res) => res.text())
+      .then((data) => JSON.parse(data.slice(1, data.length - 2)))
+      .then((data) => data.posts)
+  },
   data() {
     return {
       posts: null,
@@ -31,12 +37,6 @@ export default {
   //     .then((data) => JSON.parse(data.slice(1, data.length - 2)))
   //     .then((data) => data.posts)
   // },
-  async fetch() {
-    this.posts = await fetch(endpoint)
-      .then((res) => res.text())
-      .then((data) => JSON.parse(data.slice(1, data.length - 2)))
-      .then((data) => data.posts)
-  },
   fetchOnServer: false,
 }
 </script>
