@@ -4,7 +4,7 @@
     <br />
     <br />
     <b-row>
-      <b-col v-show="scriptLoaded" lg="9">
+      <b-col lg="9">
         <Widget />
       </b-col>
     </b-row>
@@ -21,20 +21,6 @@ export default {
   data() {
     return {
       scriptLoaded: false,
-    }
-  },
-
-  head() {
-    return {
-      script: [
-        {
-          src: 'https://widget.bandsintown.com/main.min.js',
-          body: true,
-          callback: () => {
-            this.scriptLoaded = true
-          },
-        },
-      ],
     }
   },
 }
