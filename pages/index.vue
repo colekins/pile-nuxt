@@ -26,18 +26,12 @@ export default {
       .then((data) => JSON.parse(data.slice(1, data.length - 2)))
       .then((data) => data.posts)
   },
+  fetchOnServer: false,
   data() {
     return {
       posts: null,
     }
   },
-  // mounted: async () => {
-  //   data.posts = await fetch(endpoint)
-  //     .then((res) => res.text())
-  //     .then((data) => JSON.parse(data.slice(1, data.length - 2)))
-  //     .then((data) => data.posts)
-  // },
-  fetchOnServer: false,
 }
 </script>
 
