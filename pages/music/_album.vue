@@ -1,3 +1,4 @@
+<!-- eslint-disable -->
 <template>
   <b-container class="container-fluid content-container album-page">
     <div class="page-title">
@@ -36,9 +37,9 @@
       <b-col>
         <div class="lyrics">
           <div
-            class="song-lyrics"
             v-for="(song, index) in album.songs"
             :key="song.title"
+            class="song-lyrics"
             :song="song"
           >
             <span v-if="song.lyrics">

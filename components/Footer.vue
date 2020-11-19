@@ -3,9 +3,9 @@
     <div class="container">
       <div v-if="show" class="sub-form">
         <form
+          id="mc-embedded-subscribe-form"
           action="https://pilemusic.us7.list-manage.com/subscribe/post?u=aab58cace920f07848013de9d&amp;id=80ecb0b8c0"
           method="post"
-          id="mc-embedded-subscribe-form"
           name="mc-embedded-subscribe-form"
           class="validate"
           target="_blank"
@@ -14,18 +14,18 @@
           <div id="mc_embed_signup_scroll" class="d-flex email-form">
             <label for="mce-EMAIL"></label>
             <input
+              id="mce-EMAIL"
               type="email"
               value=""
               name="EMAIL"
-              id="mce-EMAIL"
               class="email"
               placeholder="email address"
               required
             />
             <div style="position: absolute; left: -5000px" aria-hidden="true">
               <input
-                type="text"
                 id="email-text"
+                type="text"
                 name="b_aab58cace920f07848013de9d_80ecb0b8c0"
                 tabindex="-1"
                 value=""
@@ -33,10 +33,10 @@
             </div>
             <div class="clear">
               <input
+                id="mc-embedded-subscribe"
                 type="submit"
                 value="Subscribe"
                 name="subscribe"
-                id="mc-embedded-subscribe"
                 class="button"
                 @click="
                   preventDefault()

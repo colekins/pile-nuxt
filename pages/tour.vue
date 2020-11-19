@@ -35,17 +35,13 @@ export default {
   },
   head() {
     return {
-      title: 'Pile',
       script: [
         {
           src: 'https://widget.bandsintown.com/main.min.js',
           body: true,
-          // async: true,
         },
       ],
     }
   },
 }
 </script>
-
-<style></style>

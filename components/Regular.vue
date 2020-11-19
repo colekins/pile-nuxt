@@ -1,5 +1,4 @@
-/* eslint-disable vue/no-v-html */
-
+<!-- eslint-disable -->
 <template>
   <b-row>
     <b-col>

@@ -275,12 +275,6 @@
   </b-container>
 </template>
 
-<script>
-export default {
-  components: {
-    // AlbumCover,
-  },
-}
-</script>
+<script></script>
 
 <style></style>
