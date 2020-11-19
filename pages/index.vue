@@ -11,10 +11,8 @@
 
 <script>
 import Post from '~/components/Post.vue'
-const prod = window.location.port !== ''
-const cors = prod
-  ? 'https://pile-cors-anywhere.herokuapp.com/'
-  : 'http://0.0.0.0:8080/'
+const cors = 'https://pile-cors-anywhere.herokuapp.com/'
+// const cors = 'http://0.0.0.0:8080/'
 const api = 'https://oldpilewebsite.tumblr.com/api/read/json?callback=?&num=10'
 const endpoint = cors + api
 
