@@ -3,7 +3,9 @@
     <div class="page-title">News</div>
     <br />
     <br />
-    <Post v-for="post in posts" :key="post.title" :post="post"></Post>
+    <span v-if="posts">
+      <Post v-for="post in posts" :key="post.title" :post="post"></Post>
+    </span>
   </b-container>
 </template>
 
