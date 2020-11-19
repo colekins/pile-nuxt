@@ -12,7 +12,7 @@
         <NuxtLink class="nav-link" to="/videos">Videos</NuxtLink>
       </b-nav-item>
       <b-nav-item>
-        <NuxtLink class="nav-link" to="/new">Tour</NuxtLink>
+        <NuxtLink class="nav-link" to="/tour">Tour</NuxtLink>
       </b-nav-item>
       <b-nav-item>
         <NuxtLink class="nav-link" to="/contact">Contact</NuxtLink>

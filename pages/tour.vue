@@ -28,11 +28,6 @@
 
 <script>
 export default {
-  data() {
-    return {
-      scriptLoaded: false,
-    }
-  },
   head() {
     return {
       script: [
