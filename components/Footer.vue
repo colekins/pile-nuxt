@@ -118,11 +118,17 @@
         </span>
       </div>
     </div>
+    <Widget class="hide-widget" />
   </footer>
 </template>
 
 <script>
+import Widget from '~/components/Widget'
+
 export default {
+  components: {
+    Widget,
+  },
   data() {
     return { show: false }
   },
@@ -130,6 +136,9 @@ export default {
 </script>
 
 <style>
+.hidge-widget {
+  display: none;
+}
 footer {
   position: fixed;
   height: 100px;

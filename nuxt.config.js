@@ -19,6 +19,7 @@ export default {
       {
         src: 'https://widget.bandsintown.com/main.min.js',
         charset: 'utf-8',
+        body: true,
       },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
