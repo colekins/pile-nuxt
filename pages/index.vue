@@ -11,7 +11,7 @@
 
 <script>
 import Post from '~/components/Post.vue'
-const prod = !window.hostname === 'localhost'
+const prod = window.location.port !== ''
 const cors = prod
   ? 'https://pile-cors-anywhere.herokuapp.com/'
   : 'http://0.0.0.0:8080/'
@@ -23,7 +23,6 @@ export default {
     Post,
   },
   async fetch() {
-    console.log(endpoint)
     this.posts = await fetch(endpoint)
       .then((res) => res.text())
       .then((data) => JSON.parse(data.slice(1, data.length - 2)))
