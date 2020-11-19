@@ -161,9 +161,13 @@ footer {
 }
 
 .subscribe a {
-  padding: 0.2em 0.33em;
+  padding: 0.3em 0.33em;
   border-radius: 3px;
   background: rgba(8, 8, 8, 0.84);
+}
+
+.image-link {
+  margin: 0 2px;
 }
 
 .email-form {
