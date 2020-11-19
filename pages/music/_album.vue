@@ -61,7 +61,7 @@ export default {
   asyncData({ params, payload }) {
     return {
       album: albums.filter(
-        (album) => album.title.replace(/ /g, '').toLowerCase() === params.album
+        (album) => album.title.replace(/\W/g, '').toLowerCase() === params.album
       )[0],
     }
   },

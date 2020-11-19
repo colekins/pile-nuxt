@@ -5,9 +5,9 @@
     sm="6"
     class="album-cover"
   >
-    <n-link :to="'/music/' + album.title.replace(/ /g, '').toLowerCase()">
+    <NuxtLink :to="'/music/' + album.title.replace(/\W/g, '').toLowerCase()">
       <img :src="album.images.cover" width="100%" :alt="album.title" />
-    </n-link>
+    </NuxtLink>
     <div v-if="onMusicPage" class="item-title">
       <span class="album-title">{{ album.title }}</span
       ><br />

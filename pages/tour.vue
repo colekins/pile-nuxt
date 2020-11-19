@@ -4,7 +4,7 @@
     <br />
     <br />
     <b-row>
-      <b-col>
+      <b-col lg="9">
         <a
           class="bit-widget-initializer"
           data-artist-name="pile"

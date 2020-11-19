@@ -28,7 +28,7 @@ export default {
       const res = data.albums
       return res.map((album) => {
         return {
-          route: '/music/' + album.title.replace(/ /g, '').toLowerCase(),
+          route: '/music/' + album.title.replace(/\W/g, '').toLowerCase(),
         }
       })
     },
