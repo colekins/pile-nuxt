@@ -16,18 +16,4 @@
   ></a>
 </template>
 
-<script>
-export default {
-  head() {
-    return {
-      script: [
-        {
-          src: 'https://widget.bandsintown.com/main.min.js',
-        },
-      ],
-    }
-  },
-}
-</script>
-
 <style></style>
