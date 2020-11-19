@@ -28,9 +28,6 @@
 
 <script>
 export default {
-  components: {
-    // AlbumCover,
-  },
   data() {
     return {
       scriptLoaded: false,
@@ -43,7 +40,7 @@ export default {
         {
           src: 'https://widget.bandsintown.com/main.min.js',
           body: true,
-          async: true,
+          // async: true,
         },
       ],
     }
