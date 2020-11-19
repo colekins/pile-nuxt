@@ -11,15 +11,16 @@
 
 <script>
 import Post from '~/components/Post.vue'
-const cors = 'https://cors-anywhere.herokuapp.com/'
+const cors = 'https://pile-cors-anywhere.herokuapp.com/'
 const api = 'https://oldpilewebsite.tumblr.com/api/read/json?callback=?&num=10'
+const endpoint = cors + api
 
 export default {
   components: {
     Post,
   },
   async fetch() {
-    this.posts = await fetch(cors + api)
+    this.posts = await fetch(endpoint)
       .then((res) => res.text())
       .then((data) => JSON.parse(data.slice(1, data.length - 2)))
       .then((data) => data.posts)
