@@ -15,13 +15,6 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
     ],
-    script: [
-      {
-        src: 'https://widget.bandsintown.com/main.min.js',
-        charset: 'utf-8',
-        body: true,
-      },
-    ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
 

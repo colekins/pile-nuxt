@@ -5,7 +5,6 @@
     <br />
     <b-row>
       <b-col lg="9">
-        <!-- <Widget /> -->
         <iframe
           src="/shows.html"
           style="height: 100vh; width: 100%"
@@ -17,17 +16,7 @@
 </template>
 
 <script>
-// import Widget from '~/components/Widget.vue'
-
 export default {
-  components: {
-    // Widget,
-  },
-  data() {
-    return {
-      // scriptLoaded: false,
-    }
-  },
   // head() {
   //   return {
   //     script: [
