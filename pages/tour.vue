@@ -7,7 +7,7 @@
       <b-col lg="9">
         <!-- <Widget /> -->
         <iframe
-          src="/tour.html"
+          src="/shows.html"
           style="height: 100vh; width: 100%"
           frameBorder="0"
         ></iframe>
