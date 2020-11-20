@@ -5,18 +5,23 @@
     <br />
     <b-row>
       <b-col lg="9">
-        <Widget />
+        <!-- <Widget /> -->
+        <iframe
+          src="/tour.html"
+          style="height: 100vh; width: 100%"
+          frameBorder="0"
+        ></iframe>
       </b-col>
     </b-row>
   </b-container>
 </template>
 
 <script>
-import Widget from '~/components/Widget.vue'
+// import Widget from '~/components/Widget.vue'
 
 export default {
   components: {
-    Widget,
+    // Widget,
   },
   data() {
     return {
