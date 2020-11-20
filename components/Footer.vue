@@ -1,6 +1,6 @@
 <template>
   <footer class="footer">
-    <div class="container">
+    <div class="">
       <div v-if="show" class="sub-form">
         <form
           id="mc-embedded-subscribe-form"
@@ -143,7 +143,7 @@ footer {
   position: fixed;
   height: 100px;
   bottom: -2.4em;
-  right: 0;
+  right: 8em;
   width: 100%;
   margin-bottom: 0.5em;
 }
