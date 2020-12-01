@@ -30,6 +30,11 @@ export default {
   data() {
     return { albums: data.albums }
   },
+  head() {
+    return {
+      title: 'Pile - Music',
+    }
+  },
 }
 </script>
 

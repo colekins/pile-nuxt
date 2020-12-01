@@ -275,7 +275,15 @@
   </b-container>
 </template>
 
-<script></script>
+<script>
+export default {
+  head() {
+    return {
+      title: 'Pile - Videos',
+    }
+  },
+}
+</script>
 
 <style>
 @media only screen and (max-width: 576px) {

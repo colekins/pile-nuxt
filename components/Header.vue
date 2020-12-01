@@ -2,13 +2,13 @@
   <div>
     <b-row class="header">
       <!-- <b-col > -->
-      <a href="index.html">
+      <NuxtLink to="/">
         <img
           class="band-name"
           alt="Pile"
           src="https://i.imgur.com/448IIH6.png"
         />
-      </a>
+      </NuxtLink>
       <!-- </b-col> -->
     </b-row>
   </div>

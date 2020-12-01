@@ -33,3 +33,13 @@
     </p></b-container
   >
 </template>
+
+<script>
+export default {
+  head() {
+    return {
+      title: 'Pile - Contact',
+    }
+  },
+}
+</script>

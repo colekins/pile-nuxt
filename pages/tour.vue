@@ -17,18 +17,11 @@
 
 <script>
 export default {
-  // head() {
-  //   return {
-  //     script: [
-  //       {
-  //         src: 'https://widget.bandsintown.com/main.min.js',
-  //         body: true,
-  //         async: true,
-  //         callback: () => (this.scriptLoaded = true),
-  //       },
-  //     ],
-  //   }
-  // },
+  head() {
+    return {
+      title: 'Pile - Tour',
+    }
+  },
 }
 </script>
 

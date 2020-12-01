@@ -66,8 +66,11 @@ export default {
       )[0],
     }
   },
-  data() {
-    return {}
+
+  head() {
+    return {
+      title: 'Pile - ' + this.album.title,
+    }
   },
 }
 </script>
