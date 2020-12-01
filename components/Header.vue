@@ -24,7 +24,7 @@
   background-image: url(https://i.imgur.com/Tdlr3Fq.png);
   background-size: cover;
   background-position: bottom;
-  padding: 0.7em 9em;
+  padding: 0.7em 8em;
   display: flex;
   justify-content: flex-end;
   min-width: 100%;
@@ -33,7 +33,7 @@
 
 @media only screen and (max-width: 1440px) {
   .header {
-    padding: 0.7em 7em;
+    padding: 0.7em 6em;
   }
 }
 
@@ -55,7 +55,7 @@
 
 @media only screen and (min-width: 1550px) {
   .header {
-    padding: 0.7em 13em;
+    padding: 0.7em 12em;
   }
 }
 </style>

@@ -1,16 +1,20 @@
 <template>
-  <b-container class="container content-container news">
-    <div class="page-title">News</div>
-    <br />
-    <br />
-    <span v-if="posts">
-      <Post v-for="post in posts" :key="post.title" :post="post"></Post>
-    </span>
-  </b-container>
+  <div>
+    <Embed />
+    <b-container class="container content-container news">
+      <div class="page-title">News</div>
+      <br />
+      <br />
+      <span v-if="posts">
+        <Post v-for="post in posts" :key="post.title" :post="post"></Post>
+      </span>
+    </b-container>
+  </div>
 </template>
 
 <script>
 import Post from '~/components/Post.vue'
+import Embed from '~/components/BandcampStream.vue'
 const cors = 'https://pile-cors-anywhere.herokuapp.com/'
 // const cors = 'http://0.0.0.0:8080/'
 const api = 'https://oldpilewebsite.tumblr.com/api/read/json?callback=?&num=10'
@@ -19,6 +23,7 @@ const endpoint = cors + api
 export default {
   components: {
     Post,
+    Embed,
   },
   async fetch() {
     this.posts = await fetch(endpoint)
@@ -38,5 +43,11 @@ export default {
 <style>
 .container {
   margin: 0 auto;
+}
+
+@media only screen and (max-width: 992px) {
+  .floater {
+    display: none;
+  }
 }
 </style>

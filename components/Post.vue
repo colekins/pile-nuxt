@@ -4,7 +4,7 @@
       <h4 v-if="!isLink" class="date">
         {{ post.date.slice(0, -8) }}
       </h4>
-      <h5 v-if="title">{{ title }}</h5>
+      <h5 class="post-title" v-if="title">{{ title }}</h5>
       <br />
       <div class="post-container">
         <Regular v-if="isRegular" :post="post"></Regular>
@@ -44,8 +44,8 @@ export default {
 </script>
 
 <style>
-.date {
-  margin-bottom: 1em;
+.post-title {
+  margin-top: 1em;
 }
 
 .post-container {
