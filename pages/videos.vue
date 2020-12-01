@@ -1,5 +1,5 @@
 <template>
-  <b-container class="container content-container tour">
+  <b-container id="videos-container" class="container content-container">
     <div class="page-title">Videos</div>
     <br />
     <br />
@@ -279,11 +279,23 @@
 
 <style>
 @media only screen and (max-width: 576px) {
+  #videos-container {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
   .video-container {
     overflow: hidden;
     padding-bottom: 56.25%;
     position: relative;
     height: 0;
+  }
+
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
   }
 }
 </style>
