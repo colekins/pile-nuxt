@@ -291,6 +291,7 @@ export default {
     margin-left: 0 !important;
     margin-right: 0 !important;
   }
+
   .video-container {
     overflow: hidden;
     padding-bottom: 56.25%;

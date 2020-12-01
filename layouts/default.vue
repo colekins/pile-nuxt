@@ -25,10 +25,9 @@ export default {
 
 <style>
 html {
-  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
   font-size: 15.75px;
-  word-spacing: 1px;
+  /* word-spacing: 1px; */
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;

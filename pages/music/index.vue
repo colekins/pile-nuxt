@@ -1,12 +1,10 @@
 <template>
   <b-container class="container content-container discography">
     <div class="page-title">Music</div>
-    <br />
-    <br />
-    <div class="subtitle"></div>
-    For all available physical goods, go
-    <a href="https://pile.bandcamp.com/merch">here</a>.
-    <br />
+    <div class="subtitle">
+      For all available physical goods, go
+      <a href="https://pile.bandcamp.com/merch">here</a>.
+    </div>
     <br />
 
     <b-row>
@@ -38,4 +36,15 @@ export default {
 }
 </script>
 
-<style></style>
+<style>
+.subtitle {
+  display: block;
+  margin-top: 1em;
+}
+@media only screen and (max-width: 992px) {
+  .subtitle {
+    display: block;
+    text-align: center;
+  }
+}
+</style>

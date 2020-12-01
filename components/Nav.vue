@@ -38,13 +38,13 @@
 
 .navbar-expand .navbar-nav .nav-link {
   padding-right: 0;
-  padding-left: 0.75em;
+  padding-left: 0.7em;
 }
 
 .nav-link a {
   color: #f76e56 !important;
   text-transform: uppercase;
-  font-size: 1.1em;
+  font-size: 1.2em;
 }
 
 .nav-link a:hover {
