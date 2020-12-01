@@ -23,7 +23,7 @@
 
 <style>
 .navbar {
-  /* width: 100%; */
+  min-width: 100%;
   padding: 0 8em;
   height: 3.2em;
   border: 0;

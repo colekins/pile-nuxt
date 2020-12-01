@@ -143,9 +143,9 @@ footer {
   position: fixed;
   height: 100px;
   bottom: -2.4em;
-  right: 8em;
+  right: 9em;
   width: 100%;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.75em;
 }
 
 .icons,
