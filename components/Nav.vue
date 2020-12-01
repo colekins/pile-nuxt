@@ -69,13 +69,16 @@
   .navbar-expand .navbar-nav .nav-link {
     padding-right: 0;
     padding-left: 0;
-    padding: 0 0.2em;
+    padding: 0 0.3em;
   }
 }
 
 @media only screen and (max-width: 370px) {
   .nav-link a {
     font-size: 0.9em;
+  }
+  .navbar-expand .navbar-nav .nav-link {
+    padding: 0 0.2em;
   }
 }
 </style>
