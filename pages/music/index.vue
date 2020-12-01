@@ -1,11 +1,14 @@
 <template>
   <b-container class="container content-container discography">
     <div class="page-title">Music</div>
+    <br />
+    <br />
     <div class="subtitle"></div>
     For all available physical goods, go
     <a href="https://pile.bandcamp.com/merch">here</a>.
     <br />
     <br />
+
     <b-row>
       <AlbumCover
         v-for="album in albums"

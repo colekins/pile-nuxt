@@ -41,6 +41,13 @@ export default {
 
 <style>
 .post-image {
-  margin: 0 1.5em 1.5em 0;
+  margin: 1em;
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+  .post-image {
+    margin: 0.5em 0;
+  }
 }
 </style>

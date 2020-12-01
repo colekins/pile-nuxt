@@ -7,7 +7,7 @@
       <b-col lg="9">
         <iframe
           src="/shows.html"
-          style="height: 100vh; width: 100%"
+          style="min-height: 50vh; width: 100%"
           frameBorder="0"
         ></iframe>
       </b-col>

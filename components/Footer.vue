@@ -147,6 +147,7 @@ footer {
   width: 100%;
   margin-bottom: 0.5em;
 }
+
 .icons,
 .subscribe,
 .email-form {
@@ -183,5 +184,19 @@ footer {
   font-size: 0.78em;
   margin-bottom: 0.8em;
   padding: 0;
+}
+
+@media only screen and (max-width: 992px) {
+  .footer {
+    position: static;
+    bottom: none;
+    right: none;
+  }
+
+  .icons,
+  .subscribe,
+  .email-form {
+    justify-content: center;
+  }
 }
 </style>

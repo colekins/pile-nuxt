@@ -1,6 +1,6 @@
 <template>
   <b-row>
-    <b-col>
+    <b-col lg="10">
       <h4 v-if="!isLink" class="date">
         {{ post.date.slice(0, -8) }}
         <span v-if="title">- {{ title }}</span>
@@ -49,5 +49,17 @@ export default {
 
 .post-container {
   margin-left: 1.5em;
+}
+
+@media only screen and (max-width: 992px) {
+  .post-container {
+    margin-left: 0.5em;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .post-container {
+    margin-left: 0;
+  }
 }
 </style>

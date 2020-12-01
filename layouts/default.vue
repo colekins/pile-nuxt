@@ -74,6 +74,7 @@ body {
 
 body a {
   color: #f76e56;
+  word-wrap: break-word;
 }
 
 body a:hover {
@@ -83,5 +84,16 @@ body a:hover {
 body * {
   color: white;
   font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+}
+
+@media only screen and (max-width: 992px) {
+  .content-container {
+    padding-bottom: 2.5em;
+  }
+
+  .page-title {
+    display: block;
+    text-align: center;
+  }
 }
 </style>

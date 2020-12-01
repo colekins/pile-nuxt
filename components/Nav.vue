@@ -1,7 +1,7 @@
 <template>
   <b-navbar class="navbar" type="dark" sticky="true">
     <!-- Right aligned nav items -->
-    <b-navbar-nav class="ml-auto">
+    <b-navbar-nav>
       <b-nav-item>
         <NuxtLink class="nav-link" to="/">News</NuxtLink>
       </b-nav-item>
@@ -22,15 +22,10 @@
 </template>
 
 <style>
-.band-name {
-  padding: 0;
-  height: 140px;
-}
-
 .navbar {
-  width: 100%;
+  /* width: 100%; */
   padding: 0 8em;
-  height: 2.92em;
+  height: 3.2em;
   border: 0;
   border-top: 5.5px;
   border-radius: 1.5px;
@@ -38,6 +33,7 @@
   border-color: #341a0b;
   background-color: #140e0e;
   align-items: center;
+  justify-content: flex-end;
 }
 
 .nav-link a {
@@ -49,5 +45,26 @@
 .nav-link a:hover {
   color: #ffb9ad !important;
   text-decoration: underline;
+}
+
+@media only screen and (max-width: 992px) {
+  .navbar {
+    justify-content: space-around;
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .navbar {
+    height: 2.8em;
+  }
+  .nav-link a {
+    font-size: 0.9em;
+  }
+  .navbar-expand .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+    padding: 0 0.2em;
+  }
 }
 </style>

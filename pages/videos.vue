@@ -277,4 +277,13 @@
 
 <script></script>
 
-<style></style>
+<style>
+@media only screen and (max-width: 576px) {
+  .video-container {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+  }
+}
+</style>

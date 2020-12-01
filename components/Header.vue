@@ -27,7 +27,23 @@
   padding: 0.7em 9em;
   display: flex;
   justify-content: flex-end;
-  width: 100%;
-  margin: 0;
+  min-width: 100%;
+  margin: 0 !important;
+}
+
+@media only screen and (max-width: 992px) {
+  .header {
+    justify-content: space-around;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .band-name {
+    height: 100px;
+  }
+
+  .header {
+    background-position: unset;
+  }
 }
 </style>
