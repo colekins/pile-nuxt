@@ -50,21 +50,32 @@
 @media only screen and (max-width: 992px) {
   .navbar {
     justify-content: space-around;
+    text-align: center;
     padding: 0;
   }
 }
 
 @media only screen and (max-width: 430px) {
+  .nav-link a:hover {
+    color: #f76e56 !important;
+    text-decoration: none;
+  }
   .navbar {
     height: 2.8em;
   }
   .nav-link a {
-    font-size: 0.9em;
+    font-size: 1em;
   }
   .navbar-expand .navbar-nav .nav-link {
     padding-right: 0;
     padding-left: 0;
     padding: 0 0.2em;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .nav-link a {
+    font-size: 0.9em;
   }
 }
 </style>
