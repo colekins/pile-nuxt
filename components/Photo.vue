@@ -41,7 +41,7 @@ export default {
 
 <style>
 .post-image {
-  margin: 1em;
+  margin: 1em 1em 1em 0;
   max-width: 100%;
 }
 

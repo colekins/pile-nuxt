@@ -139,6 +139,7 @@ export default {
 .hidge-widget {
   display: none;
 }
+
 footer {
   position: fixed;
   height: 100px;
@@ -186,6 +187,12 @@ footer {
   padding: 0;
 }
 
+@media only screen and (max-width: 1440px) {
+  footer {
+    right: 6em;
+  }
+}
+
 @media only screen and (max-width: 992px) {
   .footer {
     position: static;
@@ -197,6 +204,11 @@ footer {
   .subscribe,
   .email-form {
     justify-content: center;
+  }
+}
+@media only screen and (min-width: 1550px) {
+  footer {
+    right: 12em;
   }
 }
 </style>

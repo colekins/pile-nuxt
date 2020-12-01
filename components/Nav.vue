@@ -25,7 +25,7 @@
 .navbar {
   min-width: 100%;
   padding: 0 8em;
-  height: 3.2em;
+  height: 3em;
   border: 0;
   border-top: 5.5px;
   border-radius: 1.5px;
@@ -73,12 +73,24 @@
   }
 }
 
+@media only screen and (max-width: 1440px) {
+  .navbar {
+    padding: 0 6em;
+  }
+}
+
 @media only screen and (max-width: 370px) {
   .nav-link a {
     font-size: 0.9em;
   }
   .navbar-expand .navbar-nav .nav-link {
     padding: 0 0.2em;
+  }
+}
+
+@media only screen and (min-width: 1550px) {
+  .navbar {
+    padding: 0 12em;
   }
 }
 </style>

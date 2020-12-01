@@ -3,8 +3,9 @@
     <b-col lg="10">
       <h4 v-if="!isLink" class="date">
         {{ post.date.slice(0, -8) }}
-        <span v-if="title">- {{ title }}</span>
       </h4>
+      <h5 v-if="title">{{ title }}</h5>
+      <br />
       <div class="post-container">
         <Regular v-if="isRegular" :post="post"></Regular>
         <Photo v-if="isPhoto" :post="post"></Photo>
@@ -48,7 +49,7 @@ export default {
 }
 
 .post-container {
-  margin-left: 1.5em;
+  margin-left: 1em;
 }
 
 @media only screen and (max-width: 992px) {

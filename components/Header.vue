@@ -31,6 +31,12 @@
   margin: 0 !important;
 }
 
+@media only screen and (max-width: 1440px) {
+  .header {
+    padding: 0.7em 7em;
+  }
+}
+
 @media only screen and (max-width: 992px) {
   .header {
     justify-content: space-around;
@@ -44,6 +50,12 @@
 
   .header {
     background-position: unset;
+  }
+}
+
+@media only screen and (min-width: 1550px) {
+  .header {
+    padding: 0.7em 13em;
   }
 }
 </style>
