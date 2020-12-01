@@ -36,6 +36,11 @@
   justify-content: flex-end;
 }
 
+.navbar-expand .navbar-nav .nav-link {
+  padding-right: 0;
+  padding-left: 0.75em;
+}
+
 .nav-link a {
   color: #f76e56 !important;
   text-transform: uppercase;
@@ -52,6 +57,10 @@
     justify-content: space-around;
     text-align: center;
     padding: 0;
+  }
+
+  .navbar-expand .navbar-nav .nav-link {
+    padding: 0 0.5em;
   }
 }
 
