@@ -15,9 +15,27 @@
 .floater {
   position: absolute;
   top: 15em;
-  right: 6em;
+  right: 8em;
   width: 24em;
   z-index: 12;
   opacity: 0.9;
+}
+
+@media only screen and (max-width: 1440px) {
+  .floater {
+    right: 6em;
+  }
+}
+
+@media only screen and (min-width: 1550px) {
+  .floater {
+    right: 12em;
+  }
+}
+
+@media only screen and (min-width: 1680px) {
+  .floater {
+    right: 14em;
+  }
 }
 </style>

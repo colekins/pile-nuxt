@@ -307,4 +307,8 @@ export default {
     height: 100%;
   }
 }
+
+.video {
+  margin-bottom: 3em;
+}
 </style>

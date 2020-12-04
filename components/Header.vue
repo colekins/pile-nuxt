@@ -1,7 +1,6 @@
 <template>
   <div>
     <b-row class="header">
-      <!-- <b-col > -->
       <NuxtLink to="/">
         <img
           class="band-name"
@@ -9,7 +8,6 @@
           src="https://i.imgur.com/448IIH6.png"
         />
       </NuxtLink>
-      <!-- </b-col> -->
     </b-row>
   </div>
 </template>
@@ -56,6 +54,12 @@
 @media only screen and (min-width: 1550px) {
   .header {
     padding: 0.7em 12em;
+  }
+}
+
+@media only screen and (min-width: 1680px) {
+  .header {
+    padding: 0.7em 14em;
   }
 }
 </style>

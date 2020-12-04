@@ -102,4 +102,10 @@
     padding: 0 12em;
   }
 }
+
+@media only screen and (min-width: 1680px) {
+  .navbar {
+    padding: 0 14em;
+  }
+}
 </style>
