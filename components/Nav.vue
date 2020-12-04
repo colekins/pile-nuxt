@@ -25,7 +25,7 @@
 .navbar {
   min-width: 100%;
   padding: 0 8em;
-  height: 3em;
+  height: 3.2em;
   border: 0;
   border-top: 5.5px;
   border-radius: 1.5px;
@@ -38,13 +38,13 @@
 
 .navbar-expand .navbar-nav .nav-link {
   padding-right: 0;
-  padding-left: 0.7em;
+  padding-left: 0.6em;
 }
 
 .nav-link a {
   color: #f76e56 !important;
   text-transform: uppercase;
-  font-size: 1.2em;
+  font-size: 1.14em;
 }
 
 .nav-link a:hover {
@@ -70,7 +70,7 @@
     text-decoration: none;
   }
   .navbar {
-    height: 2.8em;
+    height: 2.9em;
   }
   .nav-link a {
     font-size: 1em;

@@ -44,6 +44,9 @@ export default {
 </script>
 
 <style>
+hr {
+  background-color: rgb(59, 59, 59);
+}
 .post-title {
   margin-top: 1em;
 }
