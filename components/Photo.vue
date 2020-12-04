@@ -8,7 +8,9 @@
         alt="blog-post-image"
         :src="image"
       />
-      <span v-if="!onePhoto"
+      <span v-if="caption && onePhoto" v-html="caption"></span>
+      <span v-if="!onePhoto">
+        <span v-if="caption" v-html="caption"></span>
         ><img
           v-for="(photo, index) in photos"
           :key="index"
@@ -16,8 +18,6 @@
           alt="blog-post-image"
           :src="photo['photo-url-500']"
       /></span>
-
-      <span v-if="caption" v-html="caption"></span>
     </b-col>
   </b-row>
 </template>
