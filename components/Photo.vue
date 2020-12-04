@@ -11,7 +11,7 @@
       <span v-if="caption && onePhoto" v-html="caption"></span>
       <span v-if="!onePhoto">
         <span v-if="caption" v-html="caption"></span>
-        ><img
+        <img
           v-for="(photo, index) in photos"
           :key="index"
           class="post-image"
@@ -41,7 +41,7 @@ export default {
 
 <style>
 .post-image {
-  margin: 1em 1em 1em 0;
+  margin: 0em 1em 1.5em 0;
   max-width: 100%;
 }
 
