@@ -66,6 +66,10 @@ body {
   background-color: rgb(8, 8, 8);
 }
 
+h2 {
+  font-size: 1.48em;
+}
+
 .content-container {
   padding-top: 2em;
   padding-bottom: 5em;
