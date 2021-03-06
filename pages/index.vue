@@ -8,6 +8,9 @@
       <span v-if="posts">
         <Post v-for="post in posts" :key="post.title" :post="post"></Post>
       </span>
+      <span v-else>
+        <h4 class="loading-posts">Loading news posts...</h4>
+      </span>
     </b-container>
   </div>
 </template>
@@ -43,6 +46,11 @@ export default {
 <style>
 .container {
   margin: 0 auto;
+}
+
+.loading-posts {
+  color: gray;
+  font-style: italic;
 }
 
 @media only screen and (max-width: 992px) {
